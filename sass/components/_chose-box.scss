@@ -1,0 +1,35 @@
+.chose-box {
+    position: relative;
+
+    &__menu {
+
+        width: 60%;
+        height: 8rem;
+        position: absolute;
+        left: 21%;
+        top: 70%;
+        padding: 10px;
+        background-color: azure;
+        border-radius: 1rem;
+
+        &--1 {
+            width: 10%;
+            display: inline-block;
+            background-color: #77777730;
+            border-radius: .5rem;
+            width: 9rem;
+            height: 6rem;
+            text-align: center;
+            padding: 1.7rem;
+            color: black;
+
+            &:hover {
+                color: white;
+                background-color: $color-primary-light;
+            }
+
+        }
+
+    }
+
+}

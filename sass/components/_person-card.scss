@@ -1,0 +1,38 @@
+.person-card {
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-dark, .15);
+    transition: transform .2s;
+    margin-bottom: 2.5rem;
+    overflow: hidden;
+
+    &:not(:last-child) {
+        margin-right: 5rem;
+    }
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+        background-color: #289672;
+        color: #fff;
+
+    }
+
+    &__photo {
+        display: inline-block;
+        width: 100%;
+    }
+
+    &__text {
+
+        width: 100%;
+        padding: 1rem 2rem;
+        &--name {
+
+        }
+
+        &--job {
+            color: #777;
+        }
+    }
+}

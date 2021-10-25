@@ -1,0 +1,39 @@
+.header {
+    height: 75vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, .8),
+        rgba($color-primary-light, .8)),
+        url(../../img/team-photo-header.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &__text-box {
+        color: $color-white;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        margin-right: 10rem;
+    }
+}
+
+.heading-primary {
+    text-transform: uppercase;
+    font-weight: 700;
+    animation: moveInLeft 1s ease;
+}
+
+.heading-primary--first {
+    display: block;
+    font-size: 1.5rem;
+    animation: moveInRight 1s ease;
+    
+}
+
+.heading-primary--second {
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    animation: moveInRight 1.5s ease;
+}
